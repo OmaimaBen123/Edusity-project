@@ -14,3 +14,7 @@ a{
   line-height: 1;
   cursor: pointer;
 }
+.btn.dark-btn{
+  background: #212EA0;
+  color: #fff;
+}

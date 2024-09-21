@@ -49,7 +49,7 @@ const Contact = () => {
                   <li><img src={location_icon} alt="" />88 Massachussetts Ave,Cambridge <br />MA 02139,United States</li>
               </ul>
           </div>
-          <div className="contact-col">
+          <div className="contact-col" id='contact'>
               <form onSubmit={onSubmit}>
                   <label >Your Name</label>
                   <input type="text" name='name' placeholder='Enter your name' required />

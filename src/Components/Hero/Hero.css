@@ -22,3 +22,26 @@
     margin: 10px auto 20px;
     line-height: 1.4;
 }
+/*--- media query ---- */
+
+
+@media (max-width:880px) {
+    .hero-text h1{
+        font-size: 35px;
+        padding-right:  150px;
+    }
+         .hero-text p {
+             margin-right: 150px;
+         }
+}
+@media (max-width:720px) {
+    .hero-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+         .hero-text p{
+            font-size: 14px;
+            margin:15px auto 30px;
+         }
+}
